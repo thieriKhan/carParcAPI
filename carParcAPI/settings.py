@@ -25,7 +25,6 @@ SECRET_KEY = 'django-insecure-+edtu@+d!4j5*ex*xyy-bsyt=)bq@49tv_ns#sesew&-(hq(@x
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -75,7 +74,7 @@ TEMPLATES = [
 WSGI_APPLICATION = 'carParcAPI.wsgi.application'
 
 AUTH_USER_MODEL = 'authentication.User'
-ALLOWED_HOSTS = ['0.0.0.0', 'localhost']
+ALLOWED_HOSTS = ['0.0.0.0', 'localhost', 'carparcapi.onrender.com']
 # CORS_ORIGIN_ALLOW_ALL = True
 # CORS_ORIGIN_WHITELIST = ("http://localhost:4200",)
 CORS_ORIGIN_ALLOW_ALL = False
